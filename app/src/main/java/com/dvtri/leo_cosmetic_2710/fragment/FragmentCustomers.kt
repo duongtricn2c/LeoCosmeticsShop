@@ -20,7 +20,7 @@ class FragmentCustomers : Fragment() {
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance() =
-            FragmentProducts().apply {
+            FragmentCustomers().apply {
                 arguments = Bundle().apply {
 
                 }

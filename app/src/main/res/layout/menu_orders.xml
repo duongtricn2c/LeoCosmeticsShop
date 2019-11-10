@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tabHomePage"
+    android:orientation="vertical">
+    <ImageView
+        android:src="@drawable/order_icon"
+        android:id="@+id/imgOrder"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:textColor="@color/textMenuColor"
+        android:gravity="center"
+        android:text="@string/Order"
+        android:textSize="@dimen/_60sdp"
+        android:id="@+id/tvOrder"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

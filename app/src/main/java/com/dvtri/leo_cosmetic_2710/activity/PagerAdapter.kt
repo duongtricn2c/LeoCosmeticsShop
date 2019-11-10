@@ -25,4 +25,5 @@ class PagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
         return 4
     }
 
+
 }

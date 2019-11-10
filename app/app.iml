@@ -25,7 +25,7 @@
       </configuration>
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="D:\221019 - LeoCosmeticshop\app\src\debug\kotlin;D:\221019 - LeoCosmeticshop\app\src\debug\java;D:\221019 - LeoCosmeticshop\app\src\release\kotlin;D:\221019 - LeoCosmeticshop\app\src\release\java;D:\221019 - LeoCosmeticshop\app\src\debugAndroidTest\kotlin;D:\221019 - LeoCosmeticshop\app\src\debugUnitTest\kotlin;D:\221019 - LeoCosmeticshop\app\src\releaseUnitTest\kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="D:\LeoCosmeticsShop\LeoCosmeticsShop\app\src\debug\kotlin;D:\LeoCosmeticsShop\LeoCosmeticsShop\app\src\debug\java;D:\LeoCosmeticsShop\LeoCosmeticsShop\app\src\release\kotlin;D:\LeoCosmeticsShop\LeoCosmeticsShop\app\src\release\java;D:\LeoCosmeticsShop\LeoCosmeticsShop\app\src\debugAndroidTest\kotlin;D:\LeoCosmeticsShop\LeoCosmeticsShop\app\src\debugUnitTest\kotlin;D:\LeoCosmeticsShop\LeoCosmeticsShop\app\src\releaseUnitTest\kotlin">
         <compilerSettings>
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>

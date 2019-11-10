@@ -21,7 +21,7 @@ class FragmentOrders : Fragment() {
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance() =
-            FragmentProducts().apply {
+            FragmentOrders().apply {
                 arguments = Bundle().apply {
 
                 }

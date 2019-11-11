@@ -15,7 +15,7 @@
         tools:ignore="UselessLeaf" />
 
     <com.google.android.material.tabs.TabLayout
-        android:layout_weight="10"
+        android:layout_weight="9"
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

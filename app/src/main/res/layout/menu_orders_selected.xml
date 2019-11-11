@@ -3,24 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/tabHomePage"
+    android:id="@+id/tabOrder"
     android:layout_margin="@dimen/_5sdp"
     android:orientation="vertical">
     <ImageView
-        android:id="@+id/iconHomePage"
-        android:src="@drawable/home_page"
+        android:src="@drawable/order_icon_selected"
+        android:id="@+id/imgOrder"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:ignore="ContentDescription" />
-
     <TextView
-        android:lines="2"
         android:textSize="@dimen/_10sdp"
-        android:id="@+id/tvHomePage"
-        android:textColor="@color/textMenuColor"
+        android:lines="2"
+        android:textColor="@color/textMenuSelect"
         android:gravity="center"
-        android:text="@string/home"
+        android:text="@string/Order"
+        android:id="@+id/tvOrder"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

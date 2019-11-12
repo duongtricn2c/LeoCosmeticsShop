@@ -293,8 +293,8 @@
 
             <ImageView
                 android:id="@+id/imgLogin"
-                android:layout_width="@dimen/_150sdp"
-                android:layout_height="@dimen/_150sdp"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_160sdp"
                 android:layout_centerInParent="true"
                 android:src="@drawable/avt_account"
                 android:visibility="invisible"

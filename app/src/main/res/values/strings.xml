@@ -10,4 +10,7 @@
     <string name="product">Sản phẩm</string>
     <string name="Order">Đơn hàng</string>
     <string name="Customer">Khách hàng</string>
+    <string name="ProductReport">Thống kê sản phẩm</string>
+    <string name="TypingNameProduct">Nhập tên sản phẩm...</string>
+    <string name="ListProduct">Danh sách sản phẩm</string>
 </resources>

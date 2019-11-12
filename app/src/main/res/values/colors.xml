@@ -8,4 +8,5 @@
     <color name="colorGrayBlack">#333333</color>
     <color name="textMenuColor">#868686</color>
     <color name="textMenuSelect">#CF2230</color>
+    <color name="BackgroundEditText">#FCFBFB</color>
 </resources>

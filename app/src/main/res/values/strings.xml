@@ -13,4 +13,17 @@
     <string name="ProductReport">Thống kê sản phẩm</string>
     <string name="TypingNameProduct">Nhập tên sản phẩm...</string>
     <string name="ListProduct">Danh sách sản phẩm</string>
+    <string name="SumProductCurrent">Tổng số lượng \n sản phẩm hiện tồn :</string>
+    <string name="SumProductInput">Tổng số sản phẩm \n nhập về :</string>
+    <string name="SumProductOutput">Tổng số sản phẩm \n bán ra :</string>
+    <string name="SumTypeProductInput">Sản phầm nhập về \n nhiều nhất :</string>
+    <string name="SumTypeProductOutput">Sản phẩm bán ra \n nhiều nhất :</string>
+    <string name="ListOrder">Danh sách đơn hàng</string>
+    <string name="SumOrders">Tổng số đơn hàng :</string>
+    <string name="SumOrderSucess">Số đơn hàng \n thành công :</string>
+    <string name="SumOrderWaiting">Số đơn hàng \n đang đợi :</string>
+    <string name="SumOrderCancel">Số đơn hàng \n đã hủy :</string>
+    <string name="SumOrderDefine">Số đơn hàng \n hoàn trả :</string>
+    <string name="TypingOderCode">Nhập mã đơn hàng...</string>
+    <string name="ReportOrder">Thông tin đơn hàng</string>
 </resources>

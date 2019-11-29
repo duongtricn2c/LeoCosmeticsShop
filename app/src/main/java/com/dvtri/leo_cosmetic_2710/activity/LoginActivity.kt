@@ -98,8 +98,9 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
                     enableLogin(true)
             }
             btnBackSpace -> {
-                val sb = StringBuilder(pinCode)
-                pinCode = sb.deleteCharAt(pinCode.lastIndex).toString()
+//                val sb = StringBuilder(pinCode)
+//                pinCode = sb.deleteCharAt(pinCode.lastIndex).toString()
+                pinCode = ""
                 animEditText(pinCode)
             }
             btnExit -> {

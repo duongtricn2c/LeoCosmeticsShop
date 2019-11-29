@@ -8,17 +8,17 @@
     android:orientation="vertical">
     <ImageView
         android:id="@+id/iconHomePage"
-        android:src="@drawable/home_page"
+        android:src="@drawable/home_page_selected"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:ignore="ContentDescription" />
 
     <TextView
-        android:lines="2"
-        android:textSize="@dimen/_10sdp"
+        android:lines="1"
+        android:textSize="@dimen/_8sdp"
         android:id="@+id/tvHomePage"
-        android:textColor="@color/textMenuColor"
+        android:textColor="@color/textMenuSelect"
         android:gravity="center"
         android:text="@string/home"
         android:layout_weight="1"

@@ -14,9 +14,9 @@
         android:layout_height="match_parent"
         tools:ignore="ContentDescription" />
     <TextView
-        android:lines="2"
+        android:lines="1"
         android:id="@+id/tvProduct"
-        android:textSize="@dimen/_10sdp"
+        android:textSize="@dimen/_8sdp"
         android:textColor="@color/textMenuColor"
         android:gravity="center"
         android:text="@string/product"

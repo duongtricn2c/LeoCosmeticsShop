@@ -26,4 +26,5 @@
     <string name="SumOrderDefine">Số đơn hàng \n hoàn trả :</string>
     <string name="TypingOderCode">Nhập mã đơn hàng...</string>
     <string name="ReportOrder">Thông tin đơn hàng</string>
+    <string name="add_orders">Tạo đơn hàng</string>
 </resources>

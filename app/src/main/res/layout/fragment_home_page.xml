@@ -15,7 +15,14 @@
             android:layout_margin="@dimen/_5sdp"
             android:background="@drawable/bg_report"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent">
+
+            <lecho.lib.hellocharts.view.LineChartView
+                android:id="@+id/chartOderStatus"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
         <TextView
             android:layout_marginLeft="@dimen/_10sdp"
             android:textColor="@color/textMenuSelect"
@@ -33,7 +40,14 @@
             android:layout_margin="@dimen/_5sdp"
             android:background="@drawable/bg_report"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent">
+
+            <lecho.lib.hellocharts.view.ColumnChartView
+                android:id="@+id/charMonthRevenue"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
         <TextView
             android:layout_marginLeft="@dimen/_10sdp"
             android:textColor="@color/textMenuSelect"
@@ -52,7 +66,14 @@
             android:layout_margin="@dimen/_5sdp"
             android:background="@drawable/bg_report"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent">
+
+            <lecho.lib.hellocharts.view.PieChartView
+                android:id="@+id/chartProductStatus"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
         <TextView
             android:layout_marginLeft="@dimen/_10sdp"
             android:textColor="@color/textMenuSelect"

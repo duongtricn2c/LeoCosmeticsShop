@@ -1,36 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment.FragmentCustomers">
 
     <RelativeLayout
-
-        android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_above="@+id/addCustomer"
+        android:orientation="vertical">
+
 
         <LinearLayout
-            android:layout_margin="@dimen/_5sdp"
-            android:background="@drawable/bg_report"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/bg_report">
 
-            <TextView
-                android:text="Tổng "
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
 
         </LinearLayout>
+
         <TextView
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:textColor="@color/textMenuSelect"
-            android:background="@color/colorWhite"
-            android:text="Thông tin khách hàng"
-            android:textSize="@dimen/_10sdp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:background="@color/colorWhite"
+            android:text="@string/info_customers"
+            android:textColor="@color/textMenuSelect"
+            android:textSize="@dimen/_10sdp"
+            tools:ignore="RtlHardcoded" />
     </RelativeLayout>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/addCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@color/textMenuSelect"
+        android:text="@string/add_customer"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

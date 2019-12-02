@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -311,5 +311,16 @@
             android:layout_marginRight="@dimen/_5sdp" />
     </LinearLayout>
 
+    <Button
+        android:id="@+id/addProducts"
+        android:text="@string/add_products"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="@dimen/_12sdp"
+        android:background="@color/textMenuSelect"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"/>
 
-</ScrollView>
+</RelativeLayout>

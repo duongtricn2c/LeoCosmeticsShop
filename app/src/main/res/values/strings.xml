@@ -27,4 +27,7 @@
     <string name="TypingOderCode">Nhập mã đơn hàng...</string>
     <string name="ReportOrder">Thông tin đơn hàng</string>
     <string name="add_orders">Tạo đơn hàng</string>
+    <string name="add_products">Thêm sản phẩm</string>
+    <string name="info_customers">Thông tin khách hàng</string>
+    <string name="add_customer">Khách hàng mới</string>
 </resources>

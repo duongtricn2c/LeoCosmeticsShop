@@ -30,4 +30,8 @@
     <string name="add_products">Thêm sản phẩm</string>
     <string name="info_customers">Thông tin khách hàng</string>
     <string name="add_customer">Khách hàng mới</string>
+    <string name="quantity">Số lượng</string>
+    <string name="description">Mô tả</string>
+    <string name="retail_price">Giá bán lẻ</string>
+    <string name="type">Loại</string>
 </resources>

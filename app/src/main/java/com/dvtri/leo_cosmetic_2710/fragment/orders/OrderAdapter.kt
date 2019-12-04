@@ -1,15 +1,14 @@
-package com.dvtri.leo_cosmetic_2710.fragment
+package com.dvtri.leo_cosmetic_2710.fragment.orders
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.view.marginBottom
 import androidx.recyclerview.widget.RecyclerView
 import com.dvtri.leo_cosmetic_2710.R
 import com.dvtri.leo_cosmetic_2710.data.Order
-import com.dvtri.leo_cosmetic_2710.fragment.OrderAdapter.MyViewHolder as MyViewHolder
+import com.dvtri.leo_cosmetic_2710.fragment.orders.OrderAdapter.MyViewHolder as MyViewHolder
 
 class OrderAdapter(listOrders: ArrayList<Order>) : RecyclerView.Adapter<MyViewHolder>() {
 
@@ -45,9 +44,9 @@ class OrderAdapter(listOrders: ArrayList<Order>) : RecyclerView.Adapter<MyViewHo
                 holder.imgStatus.setImageResource(R.drawable.ic_cancel)
             }
         }
-        if (position == 0){
+        if (position == listOrders.size-1){
             holder.tvLine.visibility = View.VISIBLE
-        }
+        } else holder.tvLine.visibility = View.GONE
     }
 
 

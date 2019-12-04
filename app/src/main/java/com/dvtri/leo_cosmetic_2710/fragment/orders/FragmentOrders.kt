@@ -1,4 +1,4 @@
-package com.dvtri.leo_cosmetic_2710.fragment
+package com.dvtri.leo_cosmetic_2710.fragment.orders
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,6 +9,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.dvtri.leo_cosmetic_2710.R
 import com.dvtri.leo_cosmetic_2710.data.Order
 import kotlinx.android.synthetic.main.fragment_orders.*
+import java.util.*
+import kotlin.Comparator
+import kotlin.collections.ArrayList
 
 class FragmentOrders : Fragment() {
     var listOrders : ArrayList<Order> = ArrayList()
@@ -47,13 +50,20 @@ class FragmentOrders : Fragment() {
     }
 
     private fun initUI() {
+        Collections.sort(listOrders, object : Comparator<Order>  {
+            override fun compare(p0: Order?, p1: Order?): Int {
+                return p1!!.orderID.compareTo(p0!!.orderID)
+            }
+
+        })
         adapter = OrderAdapter(listOrders)
-        rlvOrders.layoutManager = LinearLayoutManager(this.context, LinearLayoutManager.VERTICAL, true)
+        rlvOrders.layoutManager = LinearLayoutManager(this.context, LinearLayoutManager.VERTICAL, false)
         rlvOrders.setHasFixedSize(true)
         rlvOrders.adapter = adapter
     }
 
     private fun initData() {
+        listOrders = ArrayList()
         listOrders.run {
             add(
                 Order("ODS00001",

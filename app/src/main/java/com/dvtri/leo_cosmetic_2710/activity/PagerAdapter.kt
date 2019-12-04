@@ -5,8 +5,8 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import com.dvtri.leo_cosmetic_2710.fragment.FragmentCustomers
 import com.dvtri.leo_cosmetic_2710.fragment.FragmentHomePage
-import com.dvtri.leo_cosmetic_2710.fragment.FragmentOrders
-import com.dvtri.leo_cosmetic_2710.fragment.FragmentProducts
+import com.dvtri.leo_cosmetic_2710.fragment.orders.FragmentOrders
+import com.dvtri.leo_cosmetic_2710.fragment.product.FragmentProducts
 
 @Suppress("DEPRECATION")
 class PagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {

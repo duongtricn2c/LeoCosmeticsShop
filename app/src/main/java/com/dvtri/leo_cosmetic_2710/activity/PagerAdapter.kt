@@ -3,7 +3,7 @@ package com.dvtri.leo_cosmetic_2710.activity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.dvtri.leo_cosmetic_2710.fragment.FragmentCustomers
+import com.dvtri.leo_cosmetic_2710.fragment.customers.FragmentCustomers
 import com.dvtri.leo_cosmetic_2710.fragment.FragmentHomePage
 import com.dvtri.leo_cosmetic_2710.fragment.orders.FragmentOrders
 import com.dvtri.leo_cosmetic_2710.fragment.product.FragmentProducts

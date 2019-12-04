@@ -9,5 +9,6 @@ data class Customer(
     var age: Int?,
     var city: String,
     var group: String,
-    var gender: Boolean
+    var gender: Boolean,
+    var rank : Double
 )

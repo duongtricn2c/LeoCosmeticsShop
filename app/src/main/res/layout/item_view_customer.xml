@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="@dimen/_100sdp"
+    android:layout_width="@dimen/_95sdp"
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
@@ -17,6 +17,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:ignore="ContentDescription" />
+        <TextView
+            android:gravity="center"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorBlackTrans"
+            android:id="@+id/tvIdCustomer"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
     </RelativeLayout>
     <TextView
         android:layout_width="match_parent"
@@ -29,16 +39,17 @@
         android:layout_height="wrap_content">
 
         <TextView
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_3sdp"
             android:textStyle="bold"
             android:id="@+id/tvNameCustomer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/textMenuSelect"
             android:textSize="@dimen/_11sdp" />
-
         <ImageView
-            android:id="@+id/a"
-            android:src="@drawable/ic_cake"
+            android:id="@+id/e"
+            android:src="@drawable/ic_phone"
             android:layout_width="@dimen/_15sdp"
             android:layout_height="@dimen/_15sdp"
             android:layout_marginLeft="@dimen/_5sdp"
@@ -48,10 +59,32 @@
             tools:ignore="RtlHardcoded" />
 
         <TextView
-            android:id="@+id/tvBirthday"
+            android:id="@+id/tvPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/tvNameCustomer"
+            android:layout_toEndOf="@id/e"
+            android:layout_toRightOf="@id/tvBirthday"
+            android:textSize="@dimen/_11sdp" />
+
+        <ImageView
+            android:id="@+id/a"
+            android:src="@drawable/ic_cake"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:gravity="right"
+            android:layout_below="@id/tvPhone"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/tvBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPhone"
+            android:layout_marginTop="@dimen/_3sdp"
             android:layout_toEndOf="@id/a"
             android:layout_toRightOf="@id/tvBirthday"
             android:textSize="@dimen/_11sdp" />
@@ -86,7 +119,7 @@
             android:layout_marginRight="@dimen/_5sdp"
             android:gravity="right"
             android:layout_marginTop="@dimen/_3sdp"
-            android:src="@drawable/ic_vote"
+            android:src="@drawable/ic_rank"
             android:layout_below="@id/b"
             tools:ignore="RtlHardcoded" />
 
@@ -104,7 +137,6 @@
                 android:id="@+id/imgStar1"
                 android:layout_width="@dimen/_13sdp"
                 android:layout_height="@dimen/_13sdp"
-                android:gravity="right"
                 android:src="@drawable/ic_star_border"
                 tools:ignore="RtlHardcoded" />
             <ImageView
@@ -117,22 +149,18 @@
                 android:id="@+id/imgStar3"
                 android:layout_width="@dimen/_13sdp"
                 android:layout_height="@dimen/_13sdp"
-
-                android:gravity="right"
                 android:src="@drawable/ic_star_border"
                 tools:ignore="RtlHardcoded" />
             <ImageView
                 android:id="@+id/imgStar4"
                 android:layout_width="@dimen/_13sdp"
                 android:layout_height="@dimen/_13sdp"
-                android:gravity="right"
                 android:src="@drawable/ic_star_border"
                 tools:ignore="RtlHardcoded" />
             <ImageView
                 android:id="@+id/imgStar5"
                 android:layout_width="@dimen/_13sdp"
                 android:layout_height="@dimen/_13sdp"
-                android:gravity="right"
                 android:src="@drawable/ic_star_border"
                 tools:ignore="RtlHardcoded" />
 

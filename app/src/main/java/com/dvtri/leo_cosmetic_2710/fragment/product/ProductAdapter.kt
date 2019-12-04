@@ -29,7 +29,7 @@ class ProductAdapter(listProducts: ArrayList<Product>) : RecyclerView.Adapter<Pr
 
     override fun onBindViewHolder(holder: ProuctViewHolder, position: Int) {
         val item  = listProducts!![position]
-        holder.imgProduct.setImageResource(R.drawable.ic_image)
+        holder.imgProduct.setImageResource(R.drawable.product_default)
         holder.tvIDProduct.text = item.productID
         holder.tvNameProduct.text = item.productName
         holder.tvStatus.text = item.quantityProduct.toString() + " " + item.unit

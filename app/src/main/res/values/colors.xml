@@ -10,4 +10,5 @@
     <color name="textMenuSelect">#CF2230</color>
     <color name="BackgroundEditText">#FCFBFB</color>
     <color name="colorBlack">#000</color>
+    <color name="colorBlackTrans">#4D000000</color>
 </resources>

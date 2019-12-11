@@ -286,12 +286,14 @@
             <pl.droidsonroids.gif.GifTextView
                 android:id="@+id/bgImgLogin"
                 android:layout_width="@dimen/_400sdp"
-                android:layout_height="@dimen/_400sdp"
+                android:layout_height="@dimen/_300sdp"
                 android:layout_centerInParent="true"
                 android:background="@drawable/ripple"
                 android:visibility="invisible" />
 
             <ImageView
+                android:background="@drawable/bg_avt"
+                android:padding="@dimen/_5sdp"
                 android:id="@+id/imgLogin"
                 android:layout_width="@dimen/_150sdp"
                 android:layout_height="@dimen/_150sdp"

@@ -13,7 +13,14 @@ import java.util.*
 import kotlin.Comparator
 import kotlin.collections.ArrayList
 
-class FragmentCustomers : Fragment() {
+class FragmentCustomers : Fragment(), View.OnClickListener {
+    override fun onClick(view: View?) {
+        when(view){
+            btnAddCustomer -> {
+                FragmentNewCustomer().show(fragmentManager!!,"dialog")
+            }
+        }
+    }
 
     var listCustomers : ArrayList<Customer> = ArrayList()
     var adapter : CustomerAdapter? = null
@@ -49,6 +56,7 @@ class FragmentCustomers : Fragment() {
 
         initData()
         initUI()
+        btnAddCustomer.setOnClickListener(this)
     }
 
     private fun initUI() {

@@ -34,4 +34,5 @@
     <string name="description">Mô tả</string>
     <string name="retail_price">Giá bán lẻ</string>
     <string name="type">Loại</string>
+    <string name="save_customer">Lưu khách hàng</string>
 </resources>

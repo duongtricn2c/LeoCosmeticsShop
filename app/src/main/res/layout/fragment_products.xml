@@ -313,7 +313,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/addProducts"
+        android:id="@+id/btnAddProducts"
         android:text="@string/add_products"
         android:textColor="@color/colorWhite"
         android:textStyle="bold"

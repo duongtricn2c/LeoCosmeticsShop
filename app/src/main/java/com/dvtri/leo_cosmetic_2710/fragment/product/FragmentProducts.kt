@@ -5,7 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 
 import com.dvtri.leo_cosmetic_2710.R
@@ -23,7 +22,14 @@ import kotlin.collections.ArrayList
  * Use the [FragmentProducts.newInstance] factory method to
  * create an instance of this fragment.
  */
-class FragmentProducts : Fragment() {
+class FragmentProducts : Fragment(), View.OnClickListener {
+    override fun onClick(view: View?) {
+        when(view){
+            btnAddProducts -> {
+                FragmentAddProduct().show(fragmentManager!!,"FragmentAddProduct")
+            }
+        }
+    }
 
     var adapter : ProductAdapter? = null
     var listProduct : ArrayList<Product>? = ArrayList()
@@ -58,6 +64,7 @@ class FragmentProducts : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         initData()
         initUI()
+        btnAddProducts.setOnClickListener(this)
     }
 
     private fun initUI() {

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.lecho:hellocharts-android:v1.5.8@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1eb966ddee0d0b57a35cc307e55d677f/jetified-hellocharts-android-v1.5.8/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1eb966ddee0d0b57a35cc307e55d677f/jetified-hellocharts-android-v1.5.8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f7c8c00f4454c2e80da4b3bf6a7d31e/jetified-hellocharts-android-v1.5.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f7c8c00f4454c2e80da4b3bf6a7d31e/jetified-hellocharts-android-v1.5.8/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

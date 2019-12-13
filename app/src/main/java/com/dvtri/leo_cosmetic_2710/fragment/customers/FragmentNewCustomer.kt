@@ -13,68 +13,22 @@ import android.content.Intent
 import android.app.Activity
 import android.graphics.BitmapFactory
 import android.provider.MediaStore
-import java.time.format.ResolverStyle
-
 
 class FragmentNewCustomer : DialogFragment(), View.OnClickListener {
-    override fun onClick(view: View?) {
-        when(view){
-            imgSelectAvatar -> {
-                Toast.makeText(this.context,"Chọn ảnh đại diện",Toast.LENGTH_SHORT).show()
-                pickFromGallery()
-            }
-            imgStar1 ->{
-                imgStar1!!.setImageResource(R.drawable.ic_star)
-                imgStar2!!.setImageResource(R.drawable.ic_star_border)
-                imgStar3!!.setImageResource(R.drawable.ic_star_border)
-                imgStar4!!.setImageResource(R.drawable.ic_star_border)
-                imgStar5!!.setImageResource(R.drawable.ic_star_border)
-            }
-            imgStar2 ->{
-                imgStar1!!.setImageResource(R.drawable.ic_star)
-                imgStar2!!.setImageResource(R.drawable.ic_star)
-                imgStar3!!.setImageResource(R.drawable.ic_star_border)
-                imgStar4!!.setImageResource(R.drawable.ic_star_border)
-                imgStar5!!.setImageResource(R.drawable.ic_star_border)
-            }
-            imgStar3 ->{
-                imgStar1!!.setImageResource(R.drawable.ic_star)
-                imgStar2!!.setImageResource(R.drawable.ic_star)
-                imgStar3!!.setImageResource(R.drawable.ic_star)
-                imgStar4!!.setImageResource(R.drawable.ic_star_border)
-                imgStar5!!.setImageResource(R.drawable.ic_star_border)
-            }
-            imgStar4 ->{
-                imgStar1!!.setImageResource(R.drawable.ic_star)
-                imgStar2!!.setImageResource(R.drawable.ic_star)
-                imgStar3!!.setImageResource(R.drawable.ic_star)
-                imgStar4!!.setImageResource(R.drawable.ic_star)
-                imgStar5!!.setImageResource(R.drawable.ic_star_border)
-            }
-            imgStar5 ->{
-                imgStar1!!.setImageResource(R.drawable.ic_star)
-                imgStar2!!.setImageResource(R.drawable.ic_star)
-                imgStar3!!.setImageResource(R.drawable.ic_star)
-                imgStar4!!.setImageResource(R.drawable.ic_star)
-                imgStar5!!.setImageResource(R.drawable.ic_star)
-            }
-        }
-    }
 
-    private var imgSelectAvatar :ImageView? = null
-    private var imgStar1 :ImageView?= null
-    private var imgStar2 :ImageView?= null
-    private var imgStar3 :ImageView?= null
-    private var imgStar4 :ImageView?= null
-    private var imgStar5 :ImageView?= null
+    //ImageView selected photo from gallery
+    private var imgSelectAvatar: ImageView? = null
+    //ImageView vote
+    private var imgStar1: ImageView? = null
+    private var imgStar2: ImageView? = null
+    private var imgStar3: ImageView? = null
+    private var imgStar4: ImageView? = null
+    private var imgStar5: ImageView? = null
+    //Create variable code request gallery
     private val GALLERY_REQUEST_CODE = 2010
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        val layout : View = inflater.inflate(R.layout.fragment_new_customer, container, false)
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        val layout: View = inflater.inflate(R.layout.fragment_add_new_customer, container, false)
         imgSelectAvatar = layout.findViewById(R.id.imgSelectAvatar)
         imgStar1 = layout.findViewById(R.id.imgStar1)
         imgStar2 = layout.findViewById(R.id.imgStar2)
@@ -86,8 +40,8 @@ class FragmentNewCustomer : DialogFragment(), View.OnClickListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        //set style view
         setStyle(STYLE_NORMAL, R.style.AppTheme)
-
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -101,6 +55,54 @@ class FragmentNewCustomer : DialogFragment(), View.OnClickListener {
         imgStar5!!.setOnClickListener(this)
     }
 
+    override fun onClick(view: View?) {
+        when (view) {
+            imgSelectAvatar -> {
+                Toast.makeText(this.context, "Chọn ảnh đại diện", Toast.LENGTH_SHORT).show()
+                pickFromGallery()
+            }
+            imgStar1 -> {
+                imgStar1!!.setImageResource(R.drawable.ic_star)
+                imgStar2!!.setImageResource(R.drawable.ic_star_border)
+                imgStar3!!.setImageResource(R.drawable.ic_star_border)
+                imgStar4!!.setImageResource(R.drawable.ic_star_border)
+                imgStar5!!.setImageResource(R.drawable.ic_star_border)
+            }
+            imgStar2 -> {
+                imgStar1!!.setImageResource(R.drawable.ic_star)
+                imgStar2!!.setImageResource(R.drawable.ic_star)
+                imgStar3!!.setImageResource(R.drawable.ic_star_border)
+                imgStar4!!.setImageResource(R.drawable.ic_star_border)
+                imgStar5!!.setImageResource(R.drawable.ic_star_border)
+            }
+            imgStar3 -> {
+                imgStar1!!.setImageResource(R.drawable.ic_star)
+                imgStar2!!.setImageResource(R.drawable.ic_star)
+                imgStar3!!.setImageResource(R.drawable.ic_star)
+                imgStar4!!.setImageResource(R.drawable.ic_star_border)
+                imgStar5!!.setImageResource(R.drawable.ic_star_border)
+            }
+            imgStar4 -> {
+                imgStar1!!.setImageResource(R.drawable.ic_star)
+                imgStar2!!.setImageResource(R.drawable.ic_star)
+                imgStar3!!.setImageResource(R.drawable.ic_star)
+                imgStar4!!.setImageResource(R.drawable.ic_star)
+                imgStar5!!.setImageResource(R.drawable.ic_star_border)
+            }
+            imgStar5 -> {
+                imgStar1!!.setImageResource(R.drawable.ic_star)
+                imgStar2!!.setImageResource(R.drawable.ic_star)
+                imgStar3!!.setImageResource(R.drawable.ic_star)
+                imgStar4!!.setImageResource(R.drawable.ic_star)
+                imgStar5!!.setImageResource(R.drawable.ic_star)
+            }
+        }
+    }
+
+    /**
+     * TODO Open view select image on gallery
+     *
+     */
     fun pickFromGallery() {
         //Create an Intent with action as ACTION_PICK
         val intent = Intent(Intent.ACTION_PICK)
@@ -114,6 +116,13 @@ class FragmentNewCustomer : DialogFragment(), View.OnClickListener {
 
     }
 
+    /**
+     * TODO Receive data from gallery
+     *
+     * @param requestCode
+     * @param resultCode
+     * @param data
+     */
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         // Result code is RESULT_OK only if the user selects an Image
         if (resultCode == Activity.RESULT_OK)
@@ -123,7 +132,13 @@ class FragmentNewCustomer : DialogFragment(), View.OnClickListener {
                     val selectedImage = data!!.data
                     val filePathColumn = arrayOf(MediaStore.Images.Media.DATA)
                     // Get the cursor
-                    val cursor = this.context!!.contentResolver.query(selectedImage!!, filePathColumn, null, null, null)
+                    val cursor = this.context!!.contentResolver.query(
+                        selectedImage!!,
+                        filePathColumn,
+                        null,
+                        null,
+                        null
+                    )
                     // Move to first row
                     cursor!!.moveToFirst()
                     //Get the column index of MediaStore.Images.Media.DATA

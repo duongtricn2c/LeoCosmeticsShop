@@ -264,7 +264,8 @@
                     android:text="@string/delete"
                     android:textColor="@color/textMenuSelect"
                     android:textSize="@dimen/_20sp"
-                    android:visibility="invisible" />
+                    android:visibility="invisible"
+                    tools:ignore="RtlHardcoded" />
 
                 <Button
                     android:id="@+id/btnExit"

@@ -17,7 +17,7 @@ class FragmentCustomers : Fragment(), View.OnClickListener {
     override fun onClick(view: View?) {
         when(view){
             btnAddCustomer -> {
-                FragmentNewCustomer().show(fragmentManager!!,"dialog")
+                FrgDialogAddCustomer().show(fragmentManager!!,"dialog")
             }
         }
     }

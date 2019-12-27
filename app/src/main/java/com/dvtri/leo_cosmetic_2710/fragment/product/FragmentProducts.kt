@@ -26,7 +26,7 @@ class FragmentProducts : Fragment(), View.OnClickListener {
     override fun onClick(view: View?) {
         when(view){
             btnAddProducts -> {
-                FragmentAddProduct().show(fragmentManager!!,"FragmentAddProduct")
+                FrgDialogAddProduct().show(fragmentManager!!,"FrgDialogAddProduct")
             }
         }
     }

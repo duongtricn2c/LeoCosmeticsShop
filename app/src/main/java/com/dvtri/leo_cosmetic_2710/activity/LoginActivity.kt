@@ -9,6 +9,7 @@ import android.os.CountDownTimer
 import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
+import android.widget.Button
 import android.widget.Toast
 import com.dvtri.leo_cosmetic_2710.R
 import kotlinx.android.synthetic.main.activity_login.*
@@ -115,14 +116,12 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-        
         initUI()
-
     }
 
     private fun initUI() {
 
-
+        val btnExit = findViewById<Button>(R.id.btnExit)
         val timer = object : CountDownTimer(200, 100) {
             override fun onTick(p0: Long) {
             }

@@ -13,7 +13,15 @@ import java.util.*
 import kotlin.Comparator
 import kotlin.collections.ArrayList
 
-class FragmentOrders : Fragment() {
+class FragmentOrders : Fragment(), View.OnClickListener {
+    override fun onClick(view: View?) {
+        when(view){
+            btnAddOrder -> {
+                FrgDialogAddOrder().show(fragmentManager!!, "dialog")
+            }
+        }
+    }
+
     var listOrders : ArrayList<Order> = ArrayList()
     var adapter : OrderAdapter? = null
 
@@ -50,6 +58,7 @@ class FragmentOrders : Fragment() {
     }
 
     private fun initUI() {
+        btnAddOrder.setOnClickListener(this)
         Collections.sort(listOrders, object : Comparator<Order>  {
             override fun compare(p0: Order?, p1: Order?): Int {
                 return p1!!.orderID.compareTo(p0!!.orderID)

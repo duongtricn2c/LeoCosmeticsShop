@@ -13,9 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0178a0a0-c9da-4bfb-aca0-3ea5f01e99c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/orders/FrgDialogAddOrder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/img_select_photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_new_order.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_cart_null.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -26,22 +25,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_lecho_hellocharts_android_v1_5_8_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_lecho_hellocharts_android_v1_5_8_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__pl_droidsonroids_gif_android_gif_drawable_1_1_17_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__pl_droidsonroids_gif_android_gif_drawable_1_1_17_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/activity/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/activity/LoginActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/customers/FragmentCustomers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/customers/FragmentCustomers.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/customers/FragmentNewCustomer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/customers/FrgDialogAddCustomer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/product/FragmentAddProduct.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/product/FrgDialogAddProduct.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/product/FragmentProducts.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/product/FragmentProducts.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/img_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/img_background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_new_customer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_new_customer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_new_product.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_new_product.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/orders/FragmentOrders.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/orders/FragmentOrders.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_new_order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_new_order.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_orders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_orders.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +42,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="JBV89SOZQW55QGVO" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -77,19 +68,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/customers/FrgDialogAddCustomer.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-280">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/customers/FragmentCustomers.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="168">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -97,17 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/orders/FragmentOrders.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="59" column="82" selection-start-line="59" selection-start-column="82" selection-end-line="59" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/product/ProductAdapter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            <state relative-caret-position="357">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -115,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/orders/FrgDialogAddOrder.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="341">
+              <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
               <folding>
                 <element signature="e#53#248#0" expanded="true" />
               </folding>
@@ -127,32 +100,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/activity/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="1512">
               <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_add_new_order.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5670">
-              <caret line="270" column="41" selection-start-line="270" selection-start-column="41" selection-end-line="270" selection-end-column="41" />
+            <state relative-caret-position="382">
+              <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+              <folding>
+                <element signature="e#2455#2469#0" expanded="true" />
+                <element signature="e#2627#2643#0" expanded="true" />
+                <element signature="e#3204#3218#0" expanded="true" />
+                <element signature="e#3264#3278#0" expanded="true" />
+                <element signature="e#3523#3537#0" expanded="true" />
+                <element signature="e#3696#3721#0" expanded="true" />
+                <element signature="e#3763#3778#0" expanded="true" />
+                <element signature="e#4026#4040#0" expanded="true" />
+                <element signature="e#4086#4100#0" expanded="true" />
+                <element signature="e#4516#4530#0" expanded="true" />
+                <element signature="e#4572#4587#0" expanded="true" />
+                <element signature="e#4849#4863#0" expanded="true" />
+                <element signature="e#4909#4923#0" expanded="true" />
+                <element signature="e#5233#5248#0" expanded="true" />
+                <element signature="e#5502#5517#0" expanded="true" />
+                <element signature="e#5811#5826#0" expanded="true" />
+                <element signature="e#5868#5883#0" expanded="true" />
+                <element signature="e#6136#6151#0" expanded="true" />
+                <element signature="e#6452#6467#0" expanded="true" />
+                <element signature="e#6509#6524#0" expanded="true" />
+                <element signature="e#6779#6794#0" expanded="true" />
+                <element signature="e#7091#7106#0" expanded="true" />
+                <element signature="e#7148#7163#0" expanded="true" />
+                <element signature="e#7412#7427#0" expanded="true" />
+                <element signature="e#7724#7739#0" expanded="true" />
+                <element signature="e#7781#7796#0" expanded="true" />
+                <element signature="e#8050#8065#0" expanded="true" />
+                <element signature="e#8390#8404#0" expanded="true" />
+                <element signature="e#8450#8464#0" expanded="true" />
+                <element signature="e#8880#8894#0" expanded="true" />
+                <element signature="e#8936#8951#0" expanded="true" />
+              </folding>
             </state>
           </provider>
           <provider editor-type-id="android-designer2" />
@@ -212,7 +203,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home_page.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/OrderAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/FragmentOrders.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/orders/FragmentOrders.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/ProductAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/data/Product.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_products.xml" />
@@ -222,13 +212,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/bg_avatar.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/data/Customer.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/CustomerAdapter.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_view_customer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_rank.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/customers/CustomerAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/product/ProductAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_add_photo.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_orders.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_add_product.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/customers/FragmentAddCustomer.kt" />
@@ -244,9 +232,12 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_new_product.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/activity/LoginActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_new_order.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/orders/FrgDialogAddOrder.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/product/FragmentProducts.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_orders.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/orders/FragmentOrders.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_new_order.xml" />
       </list>
     </option>
   </component>
@@ -262,6 +253,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -285,38 +277,7 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="leo_cosmetic_2710" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leo-cosmetic-2710" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="leo_cosmetic_2710" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fragment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leo-cosmetic-2710" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="leo_cosmetic_2710" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fragment" type="462c0819:PsiDirectoryNode" />
-              <item name="customers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leo-cosmetic-2710" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="leo_cosmetic_2710" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fragment" type="462c0819:PsiDirectoryNode" />
-              <item name="orders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leo-cosmetic-2710" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="leo_cosmetic_2710" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fragment" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leo-cosmetic-2710" type="1abcf292:AndroidViewProjectNode" />
@@ -327,7 +288,7 @@
               <item name="leo-cosmetic-2710" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="leo-cosmetic-2710" type="1abcf292:AndroidViewProjectNode" />
@@ -337,7 +298,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -539,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576091475268</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="clear sources">
+      <created>1577459028508</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577459028508</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -553,9 +520,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.29127517" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1738255" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -570,14 +538,14 @@
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.329429" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.24304539" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.26647145" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.045387994" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.26647145" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.329429" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" weight="0.3295302" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.30872482" />
+      <window_info active="true" anchor="right" id="Preview" order="4" visible="true" weight="0.3080537" />
       <window_info anchor="right" id="Android WiFi ADB" order="5" weight="0.3295302" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Hierarchy" order="7" weight="0.3295302" />
@@ -660,7 +628,8 @@
     <MESSAGE value="commit fragment item load list Orders" />
     <MESSAGE value="commit fragment item load list Products &amp; design UI customers" />
     <MESSAGE value="commit fragment layout add Customer" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit fragment layout add Customer" />
+    <MESSAGE value="clear sources" />
+    <option name="LAST_COMMIT_MESSAGE" value="clear sources" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -682,26 +651,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/menu_products_selected.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/menu_products.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/loading2.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/menu_orders.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/menu_home_page.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -709,13 +658,6 @@
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/data/Order.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/menu_customers.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -821,22 +763,6 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_orders.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="259" column="53" lean-forward="true" selection-start-line="259" selection-start-column="53" selection-end-line="259" selection-end-column="53" />
-          <folding>
-            <element signature="e#12006#12020#0" expanded="true" />
-            <element signature="e#12184#12198#0" expanded="true" />
-            <element signature="e#12369#12393#0" expanded="true" />
-            <element signature="e#12520#12534#0" expanded="true" />
-            <element signature="e#12571#12585#0" expanded="true" />
-            <element signature="e#15384#15399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -886,13 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_view_oders.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -921,12 +840,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_customers.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -944,18 +863,38 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_add_new_product.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3528">
-          <caret line="168" column="20" selection-start-line="168" selection-start-column="20" selection-end-line="168" selection-end-column="20" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/activity/LoginActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2352">
           <caret line="124" column="26" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/product/FrgDialogAddProduct.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/product/FragmentProducts.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/customers/FrgDialogAddCustomer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -967,75 +906,132 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_add_new_product.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="160" column="33" selection-end-line="231" selection-end-column="15" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_orders.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="310" lean-forward="true" selection-start-line="310" selection-end-line="310" />
+          <folding>
+            <element signature="e#12278#12302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/product/ProductAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="31" column="70" lean-forward="true" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+          <folding>
+            <element signature="e#54#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/customers/FragmentCustomers.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_add_new_order.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/customers/FrgDialogAddCustomer.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/orders/FragmentOrders.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="357">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/product/FrgDialogAddProduct.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/activity/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="1512">
+          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/fillter_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_cake.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/trend_down.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_image.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/orders/FrgDialogAddOrder.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="341">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
           <folding>
             <element signature="e#53#248#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/activity/MainActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/data/Order.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+        <state relative-caret-position="168">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/customers/FragmentCustomers.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_add_new_order.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="382">
+          <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+          <folding>
+            <element signature="e#2455#2469#0" expanded="true" />
+            <element signature="e#2627#2643#0" expanded="true" />
+            <element signature="e#3204#3218#0" expanded="true" />
+            <element signature="e#3264#3278#0" expanded="true" />
+            <element signature="e#3523#3537#0" expanded="true" />
+            <element signature="e#3696#3721#0" expanded="true" />
+            <element signature="e#3763#3778#0" expanded="true" />
+            <element signature="e#4026#4040#0" expanded="true" />
+            <element signature="e#4086#4100#0" expanded="true" />
+            <element signature="e#4516#4530#0" expanded="true" />
+            <element signature="e#4572#4587#0" expanded="true" />
+            <element signature="e#4849#4863#0" expanded="true" />
+            <element signature="e#4909#4923#0" expanded="true" />
+            <element signature="e#5233#5248#0" expanded="true" />
+            <element signature="e#5502#5517#0" expanded="true" />
+            <element signature="e#5811#5826#0" expanded="true" />
+            <element signature="e#5868#5883#0" expanded="true" />
+            <element signature="e#6136#6151#0" expanded="true" />
+            <element signature="e#6452#6467#0" expanded="true" />
+            <element signature="e#6509#6524#0" expanded="true" />
+            <element signature="e#6779#6794#0" expanded="true" />
+            <element signature="e#7091#7106#0" expanded="true" />
+            <element signature="e#7148#7163#0" expanded="true" />
+            <element signature="e#7412#7427#0" expanded="true" />
+            <element signature="e#7724#7739#0" expanded="true" />
+            <element signature="e#7781#7796#0" expanded="true" />
+            <element signature="e#8050#8065#0" expanded="true" />
+            <element signature="e#8390#8404#0" expanded="true" />
+            <element signature="e#8450#8464#0" expanded="true" />
+            <element signature="e#8880#8894#0" expanded="true" />
+            <element signature="e#8936#8951#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/orders/FragmentOrders.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="59" column="82" selection-start-line="59" selection-start-column="82" selection-end-line="59" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/product/FragmentProducts.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dvtri/leo_cosmetic_2710/fragment/product/ProductAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
   </component>
 </project>

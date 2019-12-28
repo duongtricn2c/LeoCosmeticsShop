@@ -36,4 +36,5 @@
     <string name="type">Loại</string>
     <string name="save_customer">Lưu khách hàng</string>
     <string name="save_product">Lưu sản phẩm</string>
+    <string name="select_customer">Chọn khách hàng</string>
 </resources>

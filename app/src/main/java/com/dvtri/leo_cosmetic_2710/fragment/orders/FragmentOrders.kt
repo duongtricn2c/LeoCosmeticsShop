@@ -66,9 +66,9 @@ class FragmentOrders : Fragment(), View.OnClickListener {
 
         })
         adapter = OrderAdapter(listOrders)
-        rlvOrders.layoutManager = LinearLayoutManager(this.context, LinearLayoutManager.VERTICAL, false)
-        rlvOrders.setHasFixedSize(true)
-        rlvOrders.adapter = adapter
+        rlvListOrders.layoutManager = LinearLayoutManager(this.context, LinearLayoutManager.VERTICAL, false)
+        rlvListOrders.setHasFixedSize(true)
+        rlvListOrders.adapter = adapter
     }
 
     private fun initData() {

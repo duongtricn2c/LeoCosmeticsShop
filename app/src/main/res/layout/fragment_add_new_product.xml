@@ -14,7 +14,7 @@
         android:background="@color/textMenuSelect"
         android:orientation="horizontal">
 
-        <Button
+        <TextView
             android:id="@+id/btnCancel"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -27,7 +27,7 @@
             android:textStyle="bold"
             tools:ignore="NestedWeights,RtlCompat,RtlHardcoded" />
 
-        <Button
+        <TextView
             android:id="@+id/btnAddCustomer"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"

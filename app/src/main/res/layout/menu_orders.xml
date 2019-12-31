@@ -18,7 +18,7 @@
         android:lines="1"
         android:textColor="@color/textMenuColor"
         android:gravity="center"
-        android:text="@string/Order"
+        android:text="@string/order"
         android:id="@+id/tvOrder"
         android:layout_weight="1"
         android:layout_width="match_parent"

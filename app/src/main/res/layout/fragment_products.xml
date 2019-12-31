@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/_150sdp">
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/_5sdp"
@@ -25,58 +25,60 @@
                 android:paddingBottom="@dimen/_5sdp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:id="@+id/layout_title"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="3"
                     android:orientation="vertical"
-                    android:paddingRight="@dimen/_5sdp">
+                    android:paddingRight="@dimen/_5sdp"
+                    tools:ignore="RtlHardcoded">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:gravity="right"
-                        android:text="@string/SumProductCurrent"
+                        android:gravity="right|center_vertical"
+                        android:text="@string/count_exits_products"
                         android:textColor="@color/colorBlack"
                         android:textSize="@dimen/_10sdp"
                         tools:ignore="NestedWeights" />
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:gravity="right"
-                        android:text="@string/SumProductInput"
+                        android:gravity="right|center_vertical"
+                        android:text="@string/count_imported_products"
                         android:textColor="@color/colorBlack"
                         android:textSize="@dimen/_10sdp"
                         tools:ignore="NestedWeights" />
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:gravity="right"
-                        android:text="@string/SumProductOutput"
+                        android:gravity="right|center_vertical"
+                        android:text="@string/count_selling_product"
                         android:textColor="@color/colorBlack"
                         android:textSize="@dimen/_10sdp"
                         tools:ignore="NestedWeights" />
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:gravity="right"
-                        android:text="@string/SumTypeProductInput"
+                        android:gravity="right|center_vertical"
+                        android:text="@string/best_imported_product"
                         android:textColor="@color/colorBlack"
                         android:textSize="@dimen/_10sdp"
                         tools:ignore="NestedWeights" />
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:gravity="right"
-                        android:text="@string/SumTypeProductOutput"
+                        android:gravity="right|center_vertical"
+                        android:text="@string/best_selling_product"
                         android:textColor="@color/colorBlack"
                         android:textSize="@dimen/_10sdp"
                         tools:ignore="NestedWeights" />
@@ -84,15 +86,18 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_toEndOf="@id/layout_title"
+                    android:layout_toStartOf="@id/layout_ratio"
+                    android:gravity="center_horizontal"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="3"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    tools:ignore="RtlCompat">
 
                     <TextView
                         android:gravity="center_vertical"
                         android:textSize="@dimen/_10sdp"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="12345"
@@ -101,91 +106,93 @@
                     <TextView
                         android:gravity="center_vertical"
                         android:textSize="@dimen/_10sdp"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="12345"
+                        android:text="523"
                         android:textColor="@color/colorBlack" />
 
                     <TextView
                         android:gravity="center_vertical"
                         android:textSize="@dimen/_10sdp"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="12345"
+                        android:text="125"
                         android:textColor="@color/colorBlack" />
 
                     <TextView
                         android:gravity="center_vertical"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:textSize="@dimen/_10sdp"
-                        android:text="Sữa tắm chi chi đó =))"
+                        android:text="Son velvet 00ml"
                         android:textColor="@color/colorBlack" />
 
                     <TextView
                         android:gravity="center_vertical"
                         android:textSize="@dimen/_10sdp"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="Son lì chi chi đó =))"
+                        android:text="Sữa tắm lăn quăn 900ml"
                         android:textColor="@color/colorBlack" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:paddingRight="@dimen/_5sdp"
+                    android:id="@+id/layout_ratio"
+                    android:layout_alignParentRight="true"
                     android:orientation="horizontal"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="4">
+                    tools:ignore="RtlHardcoded">
                     <LinearLayout
+                        android:layout_marginRight="@dimen/_5sdp"
                         android:orientation="vertical"
-                        android:layout_weight="2"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent">
                         <ImageView
                             android:padding="@dimen/_2sdp"
                             android:layout_weight="1"
                             android:src="@drawable/trend_up"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"/>
                         <ImageView
                             android:padding="@dimen/_2sdp"
                             android:layout_weight="1"
                             android:src="@drawable/trend_down"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"/>
                         <ImageView
                             android:padding="@dimen/_2sdp"
                             android:layout_weight="1"
                             android:src="@drawable/trend_normal"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"/>
                         <ImageView
                             android:padding="@dimen/_2sdp"
                             android:layout_weight="1"
                             android:src="@drawable/trend_up"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"/>
                         <ImageView
                             android:padding="@dimen/_2sdp"
                             android:layout_weight="1"
                             android:src="@drawable/trend_down"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"/>
                     </LinearLayout>
                     <LinearLayout
                         android:orientation="vertical"
-                        android:layout_weight="1"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent">
 
                         <TextView
                             android:gravity="center_vertical"
                             android:textSize="@dimen/_10sdp"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:text="44%"
@@ -194,7 +201,7 @@
                         <TextView
                             android:gravity="center_vertical"
                             android:textSize="@dimen/_10sdp"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:text="-8%"
@@ -203,7 +210,7 @@
                         <TextView
                             android:gravity="center_vertical"
                             android:textSize="@dimen/_10sdp"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:text="0%"
@@ -211,7 +218,7 @@
 
                         <TextView
                             android:gravity="center_vertical"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:textSize="@dimen/_10sdp"
@@ -221,7 +228,7 @@
                         <TextView
                             android:gravity="center_vertical"
                             android:textSize="@dimen/_10sdp"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:text="-11%"
@@ -230,17 +237,15 @@
                     </LinearLayout>
                 </LinearLayout>
 
-            </LinearLayout>
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_15sdp"
-                android:layout_marginLeft="@dimen/_15sdp"
                 android:background="@color/colorWhite"
                 android:paddingLeft="@dimen/_2dp"
                 android:paddingRight="@dimen/_2dp"
-                android:text="@string/ProductReport"
+                android:text="@string/product_statistics"
                 android:textColor="@color/textMenuSelect" />
 
         </RelativeLayout>
@@ -259,7 +264,7 @@
                 android:layout_margin="@dimen/_2sdp"
                 android:layout_weight="2"
                 android:background="@drawable/bg_edit_text"
-                android:hint="@string/TypingNameProduct"
+                android:hint="@string/enter_product_name"
                 android:inputType="text"
                 android:paddingStart="@dimen/_5sdp"
                 android:paddingLeft="@dimen/_5sdp"
@@ -288,11 +293,12 @@
         </LinearLayout>
         <!--        Layout danh sách sản phẩm-->
         <TextView
+            android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_5sdp"
             android:gravity="center"
-            android:text="@string/ListProduct"
+            android:text="@string/product_list"
             android:textColor="@color/textMenuSelect"
             android:textSize="@dimen/_15sdp" />
 

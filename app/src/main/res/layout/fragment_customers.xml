@@ -45,7 +45,7 @@
         android:layout_alignParentBottom="true"
         android:layout_margin="@dimen/_5sdp"
         android:background="@color/textMenuSelect"
-        android:text="@string/add_customer"
+        android:text="@string/new_customer"
         android:textColor="@color/colorWhite"
         android:textSize="@dimen/_12sdp"
         android:textStyle="bold" />

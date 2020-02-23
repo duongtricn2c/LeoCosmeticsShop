@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:fitsSystemWindows="true">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_50dp"
+            android:src="@drawable/logo_duongtri"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:id="@+id/edtPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgLogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_10dp"
+            android:background="@drawable/bg_report"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/_20dp"
+            android:paddingRight="@dimen/_20dp"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/tvNumber1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-5dp"
+                android:text="@string/passNum"
+                android:textSize="@dimen/_50sp" />
+
+            <TextView
+                android:id="@+id/tvNumber2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-5dp"
+                android:text="@string/passNum"
+                android:textSize="@dimen/_50sp" />
+
+            <TextView
+                android:id="@+id/tvNumber3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-5dp"
+                android:text="@string/passNum"
+                android:textSize="@dimen/_50sp" />
+
+            <TextView
+                android:id="@+id/tvNumber4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-5dp"
+                android:text="@string/passNum"
+                android:textSize="@dimen/_50sp" />
+
+            <TextView
+                android:id="@+id/tvNumber5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-5dp"
+                android:text="@string/passNum"
+                android:textSize="@dimen/_50sp" />
+
+            <TextView
+                android:id="@+id/tvNumber6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-5dp"
+                android:text="@string/passNum"
+                android:textSize="@dimen/_50sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/edtPassword"
+            android:layout_marginTop="@dimen/_30dp">
+
+            <RelativeLayout
+                android:id="@+id/keyBoard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btnNumber1"
+                    android:layout_width="@dimen/_80dp"
+                    android:layout_height="@dimen/_80dp"
+                    android:layout_toStartOf="@id/btnNumber2"
+                    android:background="@drawable/bg_report"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/textMenuSelect"
+                    android:textSize="@dimen/_30sp"
+                    android:visibility="invisible"
+                    tools:ignore="RtlCompat" />
+
+                <Button
+                    android:id="@+id/btnNumber2"
+                    android:layout_width="@dimen/_80dp"
+                    android:layout_height="@dimen/_80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="@dimen/_3dp"
+                    android:layout_marginLeft="@dimen/_3dp"
+                    android:background="@drawable/bg_report"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/textMenuSelect"
+                    android:textSize="@dimen/_30sp"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btnNumber3"
+                    android:layout_width="@dimen/_80dp"
+                    android:layout_height="@dimen/_80dp"
+                    android:layout_marginStart="@dimen/_3dp"
+                    android:layout_marginLeft="@dimen/_3dp"
+                    android:layout_toEndOf="@id/btnNumber2"
+                    android:layout_toRightOf="@id/btnNumber2"
+                    android:background="@drawable/bg_report"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/textMenuSelect"
+                    android:textSize="@dimen/_30sp"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btnNumber4"
+                    android:layout_width="@dimen/_80dp"
+                    android:layout_height="@dimen/_80dp"
+                    android:layout_below="@id/btnNumber1"
+                    android:layout_marginTop="@dimen/_3dp"
+                    android:layout_toStartOf="@id/btnNumber5"
+                    android:background="@drawable/bg_report"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="@color/textMenuSelect"
+                    android:textSize="@dimen/_30sp"
+                    android:visibility="invisible"
+                    tools:ignore="RtlCompat" />
+
+                <Button
+                    android:id="@+id/btnNumber5"
+                    android:layout_width="@dimen/_80dp"
+                    android:layout_height="@dimen/_80dp"
+                    android:layout_below="@id/btnNumber2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="@dimen/_3dp"
+                    android:layout_marginLeft="@dimen/_3dp"
+                    android:layout_marginTop="@dimen/_3dp"
+                    android:background="@drawable/bg_report"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="@color/textMenuSelect"
+                    android:textSize="@dimen/_30sp"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btnNumber6"
+                    android:layout_width="@dimen/_80dp"
+                    android:layout_height="@dimen/_80dp"
+                    android:layout_below="@id/btnNumber3"
+                    android:layout_marginStart="@dimen/_3dp"
+                    android:layout_marginLeft="@dimen/_3dp"
+                    android:layout_marginTop="@dimen/_3dp"
+                    android:layout_toEndOf="@id/btnNumber5"
+                    android:layout_toRightOf="@id/btnNumber5"
+                    android:background="@drawable/bg_report"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textColor="@color/textMenuSelect"
+                    android:textSize="@dimen/_30sp"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btnNumber7"
+                    android:layout_width="@dimen/_80dp"
+                    android:layout_height="@dimen/_80dp"
+                    android:layout_below="@id/btnNumber4"
+                    android:layout_marginTop="@dimen/_3dp"
+                    android:layout_toStartOf="@id/btnNumber8"
+                    android:layout_toLeftOf="@id/btnNumber8"
+                    android:background="@drawable/bg_report"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textColor="@color/textMenuSelect"
+                    android:textSize="@dimen/_30sp"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btnNumber8"
+                    android:layout_width="@dimen/_80dp"
+                    android:layout_height="@dimen/_80dp"
+                    android:layout_below="@id/btnNumber5"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="@dimen/_3dp"
+                    android:layout_marginLeft="@dimen/_3dp"
+                    android:layout_marginTop="@dimen/_3dp"
+                    android:background="@drawable/bg_report"
+                    android:gravity="center"
+                    android:text="8"
+                    android:textColor="@color/textMenuSelect"
+                    android:textSize="@dimen/_30sp"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btnNumber9"
+                    android:layout_width="@dimen/_80dp"
+                    android:layout_height="@dimen/_80dp"
+                    android:layout_below="@id/btnNumber6"
+                    android:layout_marginStart="@dimen/_3dp"
+                    android:layout_marginLeft="@dimen/_3dp"
+                    android:layout_marginTop="@dimen/_3dp"
+                    android:layout_toEndOf="@id/btnNumber8"
+                    android:layout_toRightOf="@id/btnNumber8"
+                    android:background="@drawable/bg_report"
+                    android:gravity="center"
+                    android:text="9"
+                    android:textColor="@color/textMenuSelect"
+                    android:textSize="@dimen/_30sp"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btnNumber0"
+                    android:layout_width="@dimen/_80dp"
+                    android:layout_height="@dimen/_80dp"
+                    android:layout_below="@id/btnNumber8"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/_3dp"
+                    android:layout_marginTop="@dimen/_3dp"
+                    android:background="@drawable/bg_report"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/textMenuSelect"
+                    android:textSize="@dimen/_30sp"
+                    android:visibility="invisible"
+                    tools:ignore="RtlHardcoded" />
+
+                <Button
+                    android:id="@+id/btnBackSpace"
+                    android:layout_width="@dimen/_80dp"
+                    android:layout_height="@dimen/_80dp"
+                    android:layout_below="@id/btnNumber9"
+                    android:layout_marginLeft="@dimen/_3dp"
+                    android:layout_marginTop="@dimen/_3dp"
+                    android:layout_toEndOf="@id/btnNumber0"
+                    android:layout_toRightOf="@id/btnNumber0"
+                    android:background="@drawable/bg_report"
+                    android:gravity="center"
+                    android:text="@string/delete"
+                    android:textColor="@color/textMenuSelect"
+                    android:textSize="@dimen/_20sp"
+                    android:visibility="invisible"
+                    tools:ignore="RtlHardcoded" />
+
+                <Button
+                    android:id="@+id/btnExit"
+                    android:layout_width="@dimen/_80dp"
+                    android:layout_height="@dimen/_80dp"
+                    android:layout_below="@id/btnNumber7"
+                    android:layout_marginTop="@dimen/_3dp"
+                    android:layout_toStartOf="@id/btnNumber0"
+                    android:layout_toLeftOf="@id/btnNumber0"
+                    android:background="@drawable/bg_report"
+                    android:gravity="center"
+                    android:text="@string/exit"
+                    android:textColor="@color/textMenuSelect"
+                    android:textSize="@dimen/_20sp"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+            <pl.droidsonroids.gif.GifTextView
+                android:id="@+id/bgImgLogin"
+                android:layout_width="@dimen/_400sdp"
+                android:layout_height="@dimen/_300sdp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ripple"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:background="@drawable/bg_avt"
+                android:padding="@dimen/_5sdp"
+                android:id="@+id/imgLogin"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/avt_account"
+                android:visibility="invisible"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

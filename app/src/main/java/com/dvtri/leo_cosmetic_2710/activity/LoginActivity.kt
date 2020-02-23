@@ -135,7 +135,8 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
         val timer2 = object : CountDownTimer(2500, 100) {
             override fun onFinish() {
-                imgLogo.startAnimation(animScaleUp)
+//                imgLogo.startAnimation(animScaleUp)
+                checkLogin(pinCode)
             }
 
             override fun onTick(p0: Long) {
@@ -143,46 +144,46 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         }
         timer2.start()
 
-        val timer3 = object : CountDownTimer(3000, 100) {
-            override fun onFinish() {
-                btnNumber1.visibility = View.VISIBLE
-                btnNumber2.visibility = View.VISIBLE
-                btnNumber3.visibility = View.VISIBLE
-                btnNumber4.visibility = View.VISIBLE
-                btnNumber5.visibility = View.VISIBLE
-                btnNumber6.visibility = View.VISIBLE
-                btnNumber7.visibility = View.VISIBLE
-                btnNumber8.visibility = View.VISIBLE
-                btnNumber9.visibility = View.VISIBLE
-                btnNumber0.visibility = View.VISIBLE
-                btnBackSpace.visibility = View.VISIBLE
-                btnExit.visibility = View.VISIBLE
-                edtPassword.visibility = View.VISIBLE
-
-
-                btnNumber1.startAnimation(animMoveLeft)
-                btnNumber4.startAnimation(animMoveLeft)
-                btnNumber7.startAnimation(animMoveLeft)
-                btnExit.startAnimation(animMoveLeft)
-
-                btnNumber3.startAnimation(animMoveRight)
-                btnNumber6.startAnimation(animMoveRight)
-                btnNumber9.startAnimation(animMoveRight)
-                btnBackSpace.startAnimation(animMoveRight)
-
-                btnNumber2.startAnimation(animMoveUp)
-                btnNumber5.startAnimation(animMoveUp)
-                btnNumber8.startAnimation(animMoveUp)
-                btnNumber0.startAnimation(animMoveUp)
-
-                edtPassword.startAnimation(animMoveDown)
-
-            }
-
-            override fun onTick(p0: Long) {
-            }
-        }
-        timer3.start()
+//        val timer3 = object : CountDownTimer(3000, 100) {
+//            override fun onFinish() {
+//                btnNumber1.visibility = View.VISIBLE
+//                btnNumber2.visibility = View.VISIBLE
+//                btnNumber3.visibility = View.VISIBLE
+//                btnNumber4.visibility = View.VISIBLE
+//                btnNumber5.visibility = View.VISIBLE
+//                btnNumber6.visibility = View.VISIBLE
+//                btnNumber7.visibility = View.VISIBLE
+//                btnNumber8.visibility = View.VISIBLE
+//                btnNumber9.visibility = View.VISIBLE
+//                btnNumber0.visibility = View.VISIBLE
+//                btnBackSpace.visibility = View.VISIBLE
+//                btnExit.visibility = View.VISIBLE
+//                edtPassword.visibility = View.VISIBLE
+//
+//
+//                btnNumber1.startAnimation(animMoveLeft)
+//                btnNumber4.startAnimation(animMoveLeft)
+//                btnNumber7.startAnimation(animMoveLeft)
+//                btnExit.startAnimation(animMoveLeft)
+//
+//                btnNumber3.startAnimation(animMoveRight)
+//                btnNumber6.startAnimation(animMoveRight)
+//                btnNumber9.startAnimation(animMoveRight)
+//                btnBackSpace.startAnimation(animMoveRight)
+//
+//                btnNumber2.startAnimation(animMoveUp)
+//                btnNumber5.startAnimation(animMoveUp)
+//                btnNumber8.startAnimation(animMoveUp)
+//                btnNumber0.startAnimation(animMoveUp)
+//
+//                edtPassword.startAnimation(animMoveDown)
+//
+//            }
+//
+//            override fun onTick(p0: Long) {
+//            }
+//        }
+//        timer3.start()
 
 
         animMoveUp = AnimationUtils.loadAnimation(this, R.anim.move_up)
@@ -299,8 +300,11 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
             (this as Activity).finish()
         }
         else {
-            Toast.makeText(this,"Sai mã PIN, vui lòng thử lại!", Toast.LENGTH_SHORT).show()
-            enableLogin(false)
+//            Toast.makeText(this,"Sai mã PIN, vui lòng thử lại!", Toast.LENGTH_SHORT).show()
+//            enableLogin(false)
+            var intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            (this as Activity).finish()
         }
 
     }

@@ -3,12 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/_70sdp"
         android:orientation="horizontal"
+        android:paddingBottom="@dimen/_5sdp"
+        android:background="@drawable/bg_item_shadow"
         tools:ignore="UselessParent">
 
         <LinearLayout
@@ -23,6 +26,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:textColor="@color/textMenuSelect"
+                android:paddingLeft="@dimen/_5sdp"
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
 
@@ -96,13 +100,8 @@
     </LinearLayout>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_1"
-        android:layout_margin="@dimen/_3sdp"
-        android:background="@color/textMenuSelect" />
-    <TextView
         android:id="@+id/tvLine"
-        android:visibility="gone"
+        android:visibility="visible"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_35sdp"/>
 </LinearLayout>
